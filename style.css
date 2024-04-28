@@ -1,46 +1,123 @@
-html { box-sizing: border-box; }*, ::before, ::after { box-sizing: inherit; }
+html { box-sizing: border-box; }*,
+ ::before, ::after { box-sizing: inherit; }
 
-body{ text-align: center; font-family: montserrat; background-color:#FAFAFA; margin: 0;}
-.kontejner{ margin: 60px 20px}
-p{ font-weight: 300; font-size: 16px; line-height: 21px; color: grey; text-align: center; margin-bottom: 30px; padding: 5px;}
-h1{ font-size: 28px; color: black; text-align: center; margin-top: 40px; margin-bottom: 40px }
+body{ 
+    text-align: center; font-family: montserrat; background-color:#FAFAFA; margin: 0;
+    }
+
+.kontejner{
+     margin: 60px 20px
+    }
+p{ 
+    font-weight: 300; font-size: 16px; line-height: 21px; color: grey; text-align: center; margin-bottom: 30px; padding: 5px;
+    }
+h1{
+     font-size: 28px; color: black; text-align: center; margin-top: 40px; margin-bottom: 40px 
+    }
  
 
-h2 { font-weight: 500; font-size: 16px; color: black; margin-top: 60px; margin-bottom: 15px; }
-.obrazek img{ max-width: 350px;}
-.prvni, .druhe{ width: 195px; height: 40px; font-size: 14px; font-weight: bolder; color:#FFFFFF; text-align: center; border-radius: 20px; margin: auto; }
-.prvni{ background-color: #407BFF; width: 195px}
-.druhe{ background-color: #8B8B8B; width: 220px}
-.tlacitka p{ color: white; font-size: 14px; padding: 10px 0 0 0;}
-.sluzba{ display: flex; box-shadow: 0px 4px 6px #407BFF1F; border-radius: 10px; height: 80px; margin-top: 0; margin-bottom: 15px; background-color: white;}
-.sluzba p{ font-size: 13px; text-align: left; color: #8B8B8B; padding: 20px 0px 20px 0px ;}
-.sluzba img{ width: 45px; margin: 20px 30px 20px 20px;}
+h2 {
+    font-weight: 500; font-size: 16px; color: black; margin-top: 60px; margin-bottom: 15px;
+    }
+.obrazek img{ 
+    max-width: 350px;
+    }
+.prvni, .druhe{
+     width: 195px; height: 40px; font-size: 14px; font-weight: bolder; color:#FFFFFF; text-align: center; border-radius: 20px; margin: auto;
+     }
+.prvni{ 
+    background-color: #407BFF; width: 195px
+    }
+.druhe{ 
+    background-color: #8B8B8B; width: 220px
+    }
+.tlacitka p{ 
+    color: white; font-size: 14px; padding: 10px 0 0 0;
+    }
+.sluzba{ 
+    display: flex; box-shadow: 0px 4px 6px #407BFF1F; border-radius: 10px; height: 80px; margin-top: 0; margin-bottom: 15px; background-color: white;
+    }
+.sluzba p{ 
+    font-size: 13px; text-align: left; color: #8B8B8B; padding: 20px 0px 20px 0px ;
+    }
+.sluzba img{ 
+    width: 45px; margin: 20px 30px 20px 20px;
+}
 
 
 
-@media screen and (min-width: 640px){ p{ padding-inline: 110px;
- } h1{ margin-top: 30px; }
- h1::after{ content:""; display: block; width: 60px; height: 2px; background-color: #407BFF; margin-top: 10px; }
- h2{ margin-top: 80px; }
+@media screen and (min-width: 640px){
+     p{ 
+        padding-inline: 110px;
+        } 
+ h1{ 
+    margin-top: 30px; 
+    }
+ h1::after{ 
+    content:""; display: block; width: 60px; height: 2px; background-color: #407BFF; margin-top: 10px; 
+    }
+ h2{ 
+    margin-top: 80px; 
+    }
 
- .obrazek img{ width: 425px; }
- .tlacitka{ display: flex; justify-content: center; gap: 20px; } .tlacitka p{ margin: 0px; }
- .prvni, .druhe{ margin: 0px; }
- .odkazy{ display: flex; justify-content: space-between; }
- .sluzba{ width: 32%; display: block; height: auto; margin: 0px; }
- .sluzba p{ text-align: center; padding: 20px 15px; margin: 0px; }
- .sluzba img{ margin: 40px 0 0 0; } }
+ .obrazek img{ 
+    width: 425px;
+    }
+ .tlacitka{ 
+    display: flex; justify-content: center; gap: 20px; 
+    } 
+.tlacitka p{
+     margin: 0px;
+     }
+ .prvni, .druhe{ 
+    margin: 0px; 
+    }
+ .odkazy{ 
+    display: flex; justify-content: space-between;
+    }
+ .sluzba{
+     width: 32%; display: block; height: auto; margin: 0px;
+     }
+ .sluzba p{ 
+    text-align: center; padding: 20px 15px; margin: 0px; 
+    }
+ .sluzba img{
+     margin: 40px 0 0 0; 
+    } 
+}
 
 
- @media screen and (min-width: 1100px){ .kontejner{ max-width: 1040px; margin-inline: auto; }
+ @media screen and (min-width: 1100px){ 
+    .kontejner{ 
+        max-width: 1040px; margin-inline: auto;
+     }
  
- .sekce1{ display: flex; flex-direction: row-reverse; justify-content: space-between; gap: 60px }
- .textsekce1{ display: flex; flex-direction: column; align-items: start; }
- .sekce1p{ padding: 0; text-align: left; } .obrazek, .textsekce1{ width: 50% } .obrazek img{ max-width: 425px; }
- .tlacitka{ gap: 20px; }
- .prvni p, .druhe p{ text-align: center; }
- .druhe{ margin-left: 0; }
- .prvni{ margin: 0px; }
+ .sekce1{ 
+    display: flex; flex-direction: row-reverse; justify-content: space-between; gap: 60px 
+    }
+ .textsekce1{
+     display: flex; flex-direction: column; align-items: start;
+     }
+ .sekce1p{ 
+    padding: 0; text-align: left; 
+    } .obrazek, .textsekce1{ 
+    width: 50% 
+    } 
+    .obrazek img{
+     max-width: 425px; 
+    }
+ .tlacitka{ 
+    gap: 20px;
+    }
+ .prvni p, .druhe p{ 
+    text-align: center;
+    }
+ .druhe{
+     margin-left: 0;
+     }
+ .prvni{
+     margin: 0px; 
+    }
  
 
 
